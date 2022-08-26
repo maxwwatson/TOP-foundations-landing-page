@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    margin: auto;
+}
+
+.content-hero {
+    display: flex;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {
+    max-width: 300px;
+}
+
+.colorss {
+    color:#1F2937; /* dark bg hero and footer */
+    color:#F9FAF8; /* hero main txt */
+    color:#E5E7EB; /* quote bg color, hero sec text, hdr link text */
+    color: #3882F6; /* button */
+}
